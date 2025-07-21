@@ -2,7 +2,7 @@
 # coding: utf-8
 from setuptools import setup
 
-from sentry_telegram import __version__
+from sentry_telegram_plugin import __version__
 
 
 with open('README.md', 'r') as f:
@@ -22,7 +22,7 @@ setup(
     license='MIT',
     entry_points={
         'sentry.plugins': [
-            'sentry_telegram = sentry_telegram.plugin:TelegramNotificationsPlugin',
+            'sentry_telegram_plugin = sentry_telegram_plugin.plugin:TelegramNotificationsPlugin',
         ],
     },
     classifiers=[

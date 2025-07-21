@@ -26,7 +26,7 @@ The plugin has been tested with the most recent version of Sentry available at t
 
 > **DISCLAIMER**: Sentry API is under development and is not frozen.
 > I'm trying to keep up with the latest changes, but I can't guarantee compatibility with every version of Sentry. 
-> If you have any issues, please create an [issue on GitHub](https://github.com/Jykitro/sentry-telegram/issues).
+> If you have any issues, please create an [issue on GitHub](https://github.com/Jykitro/sentry-telegram-plugin/issues).
 
 Table of compatibility:
 
@@ -78,7 +78,7 @@ Table of compatibility:
    
    If you want to install a specific version of the plugin, you can specify it in the command (for example, version 0.6.0):
    ```bash
-   echo "pip install sentry-telegram==0.6.0" >> sentry/enhance-image.sh
+   echo "pip install sentry-telegram-plugin==0.7.0" >> sentry/enhance-image.sh
    ```
 3. Run `./install.sh` script to build the Sentry image with the plugin installed:
    ```bash
