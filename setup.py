@@ -10,12 +10,12 @@ with open('README.md', 'r') as f:
 
 
 setup(
-    name='sentry_telegram',
+    name='sentry_telegram_plugin',
     version=__version__,
-    packages=['sentry_telegram'],
-    url='https://github.com/butorov/sentry-telegram',
-    author='Viacheslav Butorov',
-    author_email='butorovv@gmail.com',
+    packages=['sentry_telegram_plugin'],
+    url='https://github.com/Jykitro/sentry-telegram',
+    author='Jykitro',
+    author_email='denisbodrov705@gmail.com',
     description='Plugin for Sentry which allows sending notification via Telegram messenger.',
     long_description=long_description,
     long_description_content_type='text/markdown',

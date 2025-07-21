@@ -161,7 +161,7 @@ class TelegramNotificationsPlugin(notify.NotificationPlugin):
             return []
         return list([line.strip().split('/', maxsplit=1) for line in receivers.splitlines() if line.strip()])
 
-    def send_message(self, url, payload, receiver: list[str, str]):
+    def send_message(self, url, payload, receiver: list[str, str], **kwargs):
         payload['chat_id'] = receiver[0]
         if len(receiver) > 1:
             payload['message_thread_id'] = receiver[1]

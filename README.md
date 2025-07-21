@@ -1,10 +1,10 @@
-# Sentry Telegram ![Build Status](https://travis-ci.org/butorov/sentry-telegram.svg?branch=master) ![Coverage Status](https://codecov.io/gh/butorov/sentry-telegram/branch/master/graph/badge.svg) ![PyPI](https://badge.fury.io/py/sentry-telegram.svg) ![PyPI - Downloads](https://img.shields.io/pypi/dm/sentry-telegram)
+# Sentry Telegram   ![Coverage Status](https://codecov.io/gh/butorov/sentry-telegram/branch/master/graph/badge.svg) ![PyPI](https://badge.fury.io/py/sentry-telegram.svg) ![PyPI - Downloads](https://img.shields.io/pypi/dm/sentry-telegram)
 
 Plugin for Sentry which allows sending notifications via the [Telegram](https://telegram.org/) messenger.
 
 As any plugins installation is only available for [self-hosted Sentry](https://github.com/getsentry/self-hosted) instances, this plugin is unavailable for cloud-hosted [Sentry](https://sentry.io/).
 
-The plugin has been tested with the most recent version of Sentry available at the time - 24.5.1.
+The plugin has been tested with the most recent version of Sentry available at the time - 25.7.0.
 
 # Features
 
@@ -26,12 +26,13 @@ The plugin has been tested with the most recent version of Sentry available at t
 
 > **DISCLAIMER**: Sentry API is under development and is not frozen.
 > I'm trying to keep up with the latest changes, but I can't guarantee compatibility with every version of Sentry. 
-> If you have any issues, please create an [issue on GitHub](https://github.com/butorov/sentry-telegram/issues).
+> If you have any issues, please create an [issue on GitHub](https://github.com/Jykitro/sentry-telegram/issues).
 
 Table of compatibility:
 
 | Plugin version | Compatible Sentry versions | Tested in Sentry versions                           |
 |----------------|----------------------------|-----------------------------------------------------|
+| 0.7.0          | 24.5.1, 25.7.x             | 25.7.0                                              |
 | 0.6.0          | 24.5.1, 24.6.x             | 24.5.1                                              |
 | 0.5.0          | 24.4.x to 24.5.0           | 24.4.1, 24.4.2, 24.5.0                              |
 | 0.4.0          | 8.x to 9.x                 | 8.9, 9.1.1                                          |
