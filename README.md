@@ -61,7 +61,7 @@ Table of compatibility:
    
    Or apply this command:
    ```bash
-    echo "pip install sentry-telegram" >> sentry/enhance-image.sh
+    echo "pip install sentry-telegram-plugin" >> sentry/enhance-image.sh
     ```
    
    So, the file will look like:
@@ -73,7 +73,7 @@ Table of compatibility:
    # apt-get install -y gcc libsasl2-dev python-dev libldap2-dev libssl-dev
    # pip install python-ldap
    
-   pip install sentry-telegram
+   pip install sentry-telegram-plugin
    ```
    
    If you want to install a specific version of the plugin, you can specify it in the command (for example, version 0.6.0):
